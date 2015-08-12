@@ -15,11 +15,11 @@
   ],
   
   "releases": {
-    0: {
+    "0": {
       "platform": "pc",
       "releaseDate": {
         "year": "2011",
-        "month: "11",
+        "month": "11",
         "day": 18"
       },
       "regions": [
