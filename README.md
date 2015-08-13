@@ -5,9 +5,9 @@ This repository is focused on verified, accurate, clean data. It would be prefer
 
 ## Documentation
 
-### Systems
+### Platforms
 
-Systems (i.e. consoles, platforms, whatever) are gathered in a hopefully intuitive format in systems.json. That file is still a work in progress, but the most important thing about systems is that systems have a consistent identifier used across this project. Here is the list of identifiers that will be used in systems.json when it's complete:
+Platforms (i.e. consoles, machines, etc) are gathered in a hopefully intuitive format in systems.json. That file is still a work in progress, but the most important thing about systems is that systems have a consistent identifier used across this project. Here is the list of identifiers that will be used in systems.json when it's complete:
 
 * 3do
 * amiga
@@ -63,3 +63,8 @@ Systems (i.e. consoles, platforms, whatever) are gathered in a hopefully intuiti
 * wonderswan
 * wonderswancolor
 * zxspectrum
+
+* android
+* ios
+* winphone - windows phone
+* xboxone

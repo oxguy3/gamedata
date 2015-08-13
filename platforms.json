@@ -1,5 +1,5 @@
 {
-  "systems": {
+  "platforms": {
     "nes": {
       "name": "NES",
       "name_short": "NES",
@@ -9,13 +9,13 @@
         "Family Computer",
         "ファミリーコンピュータ",
         "Famirī Konpyūta",
-        
+
         "Nintendo Famicom",
         "Famicom",
         "ファミコン",
         "Famikon",
         "FC",
-        
+
         "Hyundai Comboy",
         "현대 컴보이",
         "Hyeondae Keomboi"
@@ -27,12 +27,12 @@
       "name_proper": "Super Nintendo Entertainment System",
       "aliases": [
         "Super NES",
-        
+
         "Super Famicom",
         "スーパーファミコン",
         "Sūpā Famikon",
         "SFC",
-        
+
         "Super Comboy",
         "슈퍼 컴보이",
         "Syupeo Keomboi"

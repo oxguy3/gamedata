@@ -1,31 +1,337 @@
 {
   "name": "Minecraft",
-  "developer": "Mojang",
-  "publisher": "Mojang",
-  "players": {
-    "minLocal": 1,
-    "maxLocal": 1,
-    "maxOnline": "inf"
+
+  "general": {
+    "developers": [
+      "Mojang"
+    ],
+    "publishers": [
+      "Mojang"
+    ],
+    "genres": [
+      "sandbox"
+    ],
+    "modes": [
+      "single-player",
+      "multiplayer"
+    ],
+    "images": [
+      {
+        "type": "logo",
+        "file": "1.svg"
+      }
+    ]
   },
-  "genres": [
-    "sandbox"
-  ],
-  "regions": [
-    "ww"
-  ],
-  
-  "releases": {
-    "0": {
+
+  "releases": [
+
+    {
+      "id": "0",
       "platform": "pc",
-      "releaseDate": {
-        "year": "2011",
-        "month": "11",
-        "day": "18"
+      "date": { "y":2011, "m":11, "d":18 },
+      "regions": [ "ww" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
       },
-      "regions": [
-        "ww"
+      "players": {
+        "local": 1,
+        "online": [1, "@INFINITY"]
+      },
+      "systemSpecifications" : {
+        "required": {
+          "bits": [32, 64],
+          "operatingSystems": {
+            "windows": {},
+            "macosx": {},
+            "linux": {}
+          },
+          "ram": "2 GB",
+          "cpu": "Intel Pentium D or AMD Athlon 64 (K8) 2.6 GHz",
+          "graphics": "Integrated: Intel HD Graphics or AMD (formerly ATI) Radeon HD Graphics with OpenGL 2.1; Discrete: Nvidia GeForce 9600 GT or AMD Radeon HD 2400 with OpenGL 3.1",
+          "storage": "200 MB",
+          "software": [
+            { "name": "Java", "version": "6 release 45" }
+          ]
+        },
+        "recommended": {
+          "bits": [32, 64],
+          "operatingSystems": {
+            "windows": {},
+            "macosx": {},
+            "linux": {}
+          },
+          "ram": "4 GB",
+          "cpu": "Intel Core i3 or AMD Athlon II (K10) 2.8 GHz",
+          "graphics": "GeForce 2xx Series or AMD Radeon HD 5xxx Series (Excluding Integrated Chipsets) with OpenGL 3.3",
+          "storage": "1 GB",
+          "software": [
+            { "name": "Java", "version": "8" }
+          ]
+        }
+      }
+    },
+
+    {
+      "id": "1",
+      "name": "Minecraft: Pocket Edition",
+      "platform": "android",
+      "date": { "y": 2011, "m": 10, "d": 7 },
+      "regions": [ "ww" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
+      },
+      "players": {
+        "local": 1,
+        "online": [1, "@INFINITY"]
+      },
+      "images": [
+        {
+          "type": "icon",
+          "file": "1.webp"
+        }
       ]
+    },
+
+    {
+      "id": "2",
+      "name": "Minecraft: Pocket Edition",
+      "platform": "ios",
+      "date": { "y": 2011, "m": 11, "d": 17 },
+      "regions": [ "ww" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
+      },
+      "players": {
+        "local": 1,
+        "online": [1, "@INFINITY"]
+      }
+    },
+
+    {
+      "id": "3",
+      "name": "Minecraft: Xbox 360 Edition",
+      "developers": [ "4J Studios" ],
+      "publishers": [ "Microsoft Studios" ],
+      "platform": "xbox360",
+      "date": { "y": 2012, "m": 5, "d": 9 },
+      "regions": [ "ww" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
+      },
+      "players": {
+        "local": [1, 4],
+        "online": [2, 8]
+      },
+      "images": [
+        {
+          "type": "cover",
+          "file": "1.png"
+        }
+      ]
+    },
+
+    {
+      "id": "4",
+      "name": "Minecraft: Xbox 360 Edition",
+      "developers": [ "4J Studios" ],
+      "publishers": [ "Microsoft Studios" ],
+      "platform": "xbox360",
+      "date": { "y": 2013, "m": 6, "d": 4 },
+      "regions": [ "na" ],
+      "distribution": {
+        "digital": false,
+        "retail": true
+      },
+      "images": [
+        {
+          "type": "cover",
+          "file": "1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": "5",
+      "name": "Minecraft: Xbox 360 Edition",
+      "developers": [ "4J Studios" ],
+      "publishers": [ "Microsoft Studios" ],
+      "platform": "xbox360",
+      "date": { "y": 2013, "m": 6, "d": 4 },
+      "regions": [ "eu" ],
+      "distribution": {
+        "digital": false,
+        "retail": true
+      }
+    },
+
+    {
+      "id": "6",
+      "name": "Minecraft: Pi Edition",
+      "platform": "pc",
+      "date": { "y": 2013, "m": 2, "d": 11 },
+      "regions": [ "ww" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
+      },
+      "systemSpecifications": {
+        "required": {
+          "operatingSystems": {
+            "windows": null,
+            "macosx": null,
+            "linux": {
+              "versions": [ "Raspbian" ]
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "id": "7",
+      "name": "Minecraft: PlayStation 3 Edition",
+      "developers": [ "4J Studios" ],
+      "publishers": [ "Sony Computer Entertainment" ],
+      "platform": "ps3",
+      "date": { "y": 2013, "m": 6, "d": 4 },
+      "regions": [ "na" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
+      }
+    },
+
+    {
+      "id": "8",
+      "name": "Minecraft: PlayStation 3 Edition",
+      "developers": [ "4J Studios" ],
+      "publishers": [ "Sony Computer Entertainment" ],
+      "platform": "ps3",
+      "date": { "y": 2013, "m": 6, "d": 4 },
+      "regions": [ "eu" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
+      }
+    },
+
+    {
+      "id": "9",
+      "name": "Minecraft: PlayStation 4 Edition",
+      "developers": [ "4J Studios" ],
+      "publishers": [ "Sony Computer Entertainment" ],
+      "platform": "ps4",
+      "date": { "y": 2014, "m": 9, "d": 4 },
+      "regions": [ "ww" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
+      }
+    },
+
+    {
+      "id": "10",
+      "name": "Minecraft: Xbox One Edition",
+      "developers": [ "4J Studios" ],
+      "publishers": [ "Microsoft Studios" ],
+      "platform": "xboxone",
+      "date": { "y": 2014, "m": 9, "d": 5 },
+      "regions": [ "ww" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
+      },
+      "images": [
+        {
+          "type": "cover",
+          "file": "2.png"
+        },
+        {
+          "type": "logo",
+          "file": "3.png"
+        }
+      ]
+    },
+
+    {
+      "id": "11",
+      "name": "Minecraft: Xbox One Edition",
+      "developers": [ "4J Studios" ],
+      "publishers": [ "Microsoft Studios" ],
+      "platform": "xboxone",
+      "date": { "y": 2014, "m": 11, "d": 18 },
+      "distribution": {
+        "digital": false,
+        "retail": true
+      }
+    },
+
+    {
+      "id": "12",
+      "name": "Minecraft: PlayStation Vita Edition",
+      "developers": [ "4J Studios" ],
+      "publishers": [ "Sony Computer Entertainment" ],f
+      "platform": "psvita",
+      "date": { "y": 2014, "m": 10, "d": 14 },
+      "regions": [ "na" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
+      }
+    },
+
+    {
+      "id": "13",
+      "name": "Minecraft: PlayStation Vita Edition",
+      "developers": [ "4J Studios" ],
+      "publishers": [ "Sony Computer Entertainment" ],
+      "platform": "psvita",
+      "date": { "y": 2014, "m": 10, "d": 15 },
+      "regions": [ "eu" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
+      }
+    },
+
+    {
+      "id": "14",
+      "name": "Minecraft: Pocket Edition",
+      "publishers": [ "Microsoft Studios" ],
+      "platform": "winphone",
+      "date": { "y": 2014, "m": 12, "d": 10 },
+      "distribution": {
+        "digital": false,
+        "retail": true
+      }
+    },
+
+    {
+      "id": "15",
+      "name": "Minecraft: Windows 10 Edition",
+      "platform": "pc",
+      "regions": [ "ww" ],
+      "distribution": {
+        "digital": true,
+        "retail": false
+      },
+      "systemSpecifications": {
+        "required": {
+          "operatingSystems": {
+            "windows": {
+              "minVersion": "10"
+            },
+            "macosx": null,
+            "linux": null
+          }
+        }
+      }
     }
-  }
-  
+
+  ]
+
 }
