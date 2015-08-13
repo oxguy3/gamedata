@@ -1,7 +1,7 @@
 {
   "platforms": {
     "nes": {
-      "nameCommon": "NES",
+      "name": "NES",
       "nameShort": "NES",
       "nameFull": "Nintendo Entertainment System",
       "aliases": [
@@ -22,7 +22,7 @@
       ]
     },
     "snes": {
-      "nameCommon": "Super Nintendo",
+      "name": "Super Nintendo",
       "nameShort": "SNES",
       "nameFull": "Super Nintendo Entertainment System",
       "aliases": [

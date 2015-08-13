@@ -3,7 +3,7 @@
 
     {
       "id": "esrb",
-      "nameCommon": "ESRB",
+      "name": "ESRB",
       "nameShort": "ESRB",
       "nameFull": "Entertainment Software Rating Board",
       "logo": "/images/ratings/esrb/logo.svg",
@@ -214,7 +214,7 @@
 
     {
       "id": "pegi",
-      "nameCommon": "PEGI",
+      "name": "PEGI",
       "nameShort": "PEGI",
       "nameFull": "Pan European Game Information",
       "logo": "/images/ratings/pegi/logo.svg",
@@ -310,7 +310,7 @@
 
     {
       "id": "iarc",
-      "nameCommon": "IARC",
+      "name": "IARC",
       "nameShort": "IARC",
       "nameFull": "International Age Rating Coalition",
       "regions": [ "ww" ],
