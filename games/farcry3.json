@@ -1,0 +1,189 @@
+{
+  "name": "Far Cry 3",
+
+  "general": {
+    "developers": [
+      "Ubisoft Montreal"
+    ],
+    "publishers": [
+      "Ubisoft"
+    ],
+    "genres": [
+      "shooter",
+      "action",
+      "open world"
+    ],
+    "modes": [
+      "single-player",
+      "multiplayer",
+      "co-operative"
+    ],
+    "players": {
+      "local": [1, 2],
+      "online": [2, 4]
+    },
+    "platforms": [ "pc", "xbox360", "ps3" ],
+    "distribution": {
+      "digital": true,
+      "retail": true
+    },
+    "systemSpecifications" : {
+      "required": {
+        "operatingSystems": {
+          "windows": {
+            "versions": [ "XP", "Vista", "7", "8" ]
+          },
+          "macosx": null,
+          "linux": null
+        },
+        "ram": "4 GB",
+        "cpu": "Intel Core 2 Duo E6700 @ 2.6 GHz or AMD Athlon64 X2 6000+ @ 3.0Ghz or better",
+        "vram": "512 MB",
+        "graphics": "Supported Video Cards at Time of Release: AMD Radeon HD 2900 / 3000 / 4000 / 5000 / 6000 / 7000 series or better. NVIDIA GeForce 8800 GTX / 9 / 200 / 400 / 500 / 600 series or better. Laptop versions of these cards may work, but are not supported. These chipsets are the only ones that will run this game.",
+        "sound": "DirectX Compatible (Recommended Surround Sound 5.1 capable)",
+        "storage": "15 GB",
+        "software": [
+          { "name": "DirectX", "version": "9.0c" },
+          { "name": "DirectX Shader Model", "version": "3.0" }
+        ]
+      },
+      "recommended": {
+        "vram": "1 GB",
+        "software": [
+          { "name": "DirectX", "version": "11" },
+          { "name": "DirectX Shader Model", "version": "5.0" }
+        ]
+      }
+    },
+    "links": [
+      { "type": "official website", "url": "http://far-cry.ubi.com/" },
+      { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Far_Cry_3" }
+    ],
+    "ratings": [
+      {
+        "authority": "esrb",
+        "rating": "M",
+        "descriptors": [
+          "Blood and Gore",
+          "Intense Violence",
+          "Nudity",
+          "Strong Language",
+          "Strong Sexual Content",
+          "Use of Drugs"
+        ]
+      },
+      {
+        "authority": "pegi",
+        "rating": "18",
+        "descriptors": [
+          "Gambling",
+          "Bad Language",
+          "Violence",
+          "Online"
+        ]
+      },
+      {
+        "authority": "usk",
+        "rating": "18"
+      }
+    ]
+  },
+
+  "releases": [
+
+    {
+      "id": "0",
+      "date": { "y":2012, "m":11, "d":29 },
+      "regions": [ "au" ]
+    },
+
+    {
+      "id": "1",
+      "date": { "y":2012, "m":11, "d":30 },
+      "regions": [ "eu" ]
+    },
+
+    {
+      "id": "2",
+      "date": { "y":2012, "m":12, "d":4 },
+      "regions": [ "na" ]
+    },
+
+  ],
+
+  "media": [
+    {
+      "file": "logo.png",
+      "type": "logo",
+      "release": {}
+    },
+    {
+      "file": "cover.png",
+      "type": "cover",
+      "release": {}
+    },
+    {
+      "file": "manual_xbox360.pdf",
+      "type": "manual",
+      "release": {
+        "platforms": [ "xbox360" ]
+      }
+    },
+    {
+      "file": "jacket_xbox360_na.jpg",
+      "type": "jacket",
+      "release": {
+        "platforms": [ "xbox360" ],
+        "regions": [ "na" ]
+      }
+    },
+    {
+      "file": "jacket_xbox360_eu.jpg",
+      "type": "jacket",
+      "release": {
+        "platforms": [ "xbox360" ],
+        "regions": [ "eu" ]
+      }
+    },
+    {
+      "file": "cover_ps3_na.jpg",
+      "type": "cover",
+      "release": {
+        "platforms": [ "ps3" ],
+        "regions": [ "na" ]
+      }
+    },
+    {
+      "file": "cover_ps3_eu.jpg",
+      "type": "cover",
+      "release": {
+        "platforms": [ "ps3" ],
+        "regions": [ "eu" ]
+      }
+    },
+    {
+      "file": "coverRear_ps3_eu.jpg",
+      "type": "coverRear",
+      "release": {
+        "platforms": [ "ps3" ],
+        "regions": [ "eu" ]
+      }
+    },
+    {
+      "file": "cover_pc_eu.jpg",
+      "type": "cover",
+      "release": {
+        "platforms": [ "pc" ],
+        "regions": [ "eu" ]
+      }
+    },
+    {
+      "file": "storefrontIcon_pc.jpg",
+      "type": "storefrontIcon",
+      "release": {
+        "platforms": [ "pc" ]
+      }
+    }
+  ]
+
+}

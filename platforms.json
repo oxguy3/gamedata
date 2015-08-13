@@ -2,7 +2,6 @@
   "platforms": {
     "nes": {
       "name": "NES",
-      "nameShort": "NES",
       "nameFull": "Nintendo Entertainment System",
       "aliases": [
         "Nintendo Family Computer",

@@ -4,58 +4,57 @@
     {
       "id": "esrb",
       "name": "ESRB",
-      "nameShort": "ESRB",
       "nameFull": "Entertainment Software Rating Board",
-      "logo": "/images/ratings/esrb/logo.svg",
+      "logo": "/media/ratings/esrb/logo.svg",
       "regions": [ "na" ],
       "ratings": [
         {
           "id": "EC",
           "name": "Early Childhood",
           "description": "Content is intended for young children.",
-          "icon": "/images/ratings/esrb/rating_ec.png",
+          "icon": "/media/ratings/esrb/rating_ec.png",
           "age": 3
         },
         {
           "id": "E",
           "name": "Everyone",
           "description": "Content is generally suitable for all ages. May contain minimal cartoon, fantasy or mild violence and/or infrequent use of mild language.",
-          "icon": "/images/ratings/esrb/rating_e.png",
+          "icon": "/media/ratings/esrb/rating_e.png",
           "age": 6
         },
         {
           "id": "E10",
           "name": "Everyone 10+",
           "description": "Content is generally suitable for ages 10 and up. May contain more cartoon, fantasy or mild violence, mild language and/or minimal suggestive themes.",
-          "icon": "/images/ratings/esrb/rating_e10.png",
+          "icon": "/media/ratings/esrb/rating_e10.png",
           "age": 10
         },
         {
           "id": "T",
           "name": "Teen",
           "description": "Content is generally suitable for ages 13 and up. May contain violence, suggestive themes, crude humor, minimal blood, simulated gambling and/or infrequent use of strong language.",
-          "icon": "/images/ratings/esrb/rating_t.png",
+          "icon": "/media/ratings/esrb/rating_t.png",
           "age": 13
         },
         {
           "id": "M",
           "name": "Mature",
           "description": "Content is generally suitable for ages 17 and up. May contain intense violence, blood and gore, sexual content and/or strong language.",
-          "icon": "/images/ratings/esrb/rating_m.png",
+          "icon": "/media/ratings/esrb/rating_m.png",
           "age": 17
         },
         {
           "id": "AO",
           "name": "Adults Only",
           "description": "Content suitable only for adults ages 18 and up. May include prolonged scenes of intense violence, graphic sexual content and/or gambling with real currency.",
-          "icon": "/images/ratings/esrb/rating_ao.png",
+          "icon": "/media/ratings/esrb/rating_ao.png",
           "age": 18
         },
         {
           "id": "RP",
           "name": "Rating Pending",
           "description": "Not yet assigned a final ESRB rating. Appears only in advertising, marketing and promotional materials related to a game that is expected to carry an ESRB rating, and should be replaced by a game's rating once it has been assigned.",
-          "icon": "/images/ratings/esrb/rating_rp.png"
+          "icon": "/media/ratings/esrb/rating_rp.png"
         }
       ],
       "descriptors": [
@@ -215,44 +214,43 @@
     {
       "id": "pegi",
       "name": "PEGI",
-      "nameShort": "PEGI",
       "nameFull": "Pan European Game Information",
-      "logo": "/images/ratings/pegi/logo.svg",
+      "logo": "/media/ratings/pegi/logo.svg",
       "regions": [ "eu" ],
       "ratings": [
         {
           "id": "3",
           "name": "3",
           "description": "Suitable for ages 3 and older. May contain very mild violence in an appropriate context for younger children, but neither bad language nor frightening content is allowed.",
-          "icon": "/images/ratings/pegi/rating_3.svg",
+          "icon": "/media/ratings/pegi/rating_3.svg",
           "age": 3
         },
         {
           "id": "7",
           "name": "7",
           "description": "Suitable for ages 7 and older. May contain mild or unrealistic violence (e.g. violence in a cartoon context), or elements that can be frightening to younger children.",
-          "icon": "/images/ratings/pegi/rating_7.svg",
+          "icon": "/media/ratings/pegi/rating_7.svg",
           "age": 7
         },
         {
           "id": "12",
           "name": "12",
           "description": "Suitable for ages 12 and older. May contain violence in either a fantasy context or a sporting action, profanity, mild sexual references or innuendo, or gambling.",
-          "icon": "/images/ratings/pegi/rating_12.svg",
+          "icon": "/media/ratings/pegi/rating_12.svg",
           "age": 12
         },
         {
           "id": "16",
           "name": "16",
           "description": "Suitable for ages 16 and older. May contain explicit or realistic-looking violence, strong language, sexual references or content, gambling, or encouragement of drug use.",
-          "icon": "/images/ratings/pegi/rating_16.svg",
+          "icon": "/media/ratings/pegi/rating_16.svg",
           "age": 16
         },
         {
           "id": "18",
           "name": "18",
           "description": "Unsuitable for persons under 18. May contain graphic violence, including \"violence towards defenceless people\" and \"multiple, motiveless killing\", strong language, strong sexual content, gambling, drug glamorisation, or discrimination.",
-          "icon": "/images/ratings/pegi/rating_18.svg",
+          "icon": "/media/ratings/pegi/rating_18.svg",
           "age": 18
         },
       ],
@@ -260,49 +258,49 @@
         {
           "name": "Violence",
           "description": "May contain scenes of people getting injured or dying, often by use of weapons, whether realistically or in a fantastical or cartoonish manner. May also contain gore and blood-letting.",
-          "icon": "/images/ratings/pegi/descriptor_violence.svg",
+          "icon": "/media/ratings/pegi/descriptor_violence.svg",
           "ratings": [ "7", "12", "16", "18" ]
         },
         {
           "name": "Bad Language",
           "description": "May contain profanity, sexual innuendo, threats, and all manner of slurs, insults, and epithets.",
-          "icon": "/images/ratings/pegi/descriptor_badlanguage.svg",
+          "icon": "/media/ratings/pegi/descriptor_badlanguage.svg",
           "ratings": [ "12", "16", "18" ]
         },
         {
           "name": "Fear",
           "description": "May contain scenes and plot elements too disturbing or frightening to younger players.",
-          "icon": "/images/ratings/pegi/descriptor_fear.svg",
+          "icon": "/media/ratings/pegi/descriptor_fear.svg",
           "ratings": [ "7", "12" ]
         },
         {
           "name": "Sex",
           "description": "May contain references to sexual attraction or sexual intercourse. May also contain nudity and characters dressed in suggestive clothing.",
-          "icon": "/images/ratings/pegi/descriptor_sex.svg",
+          "icon": "/media/ratings/pegi/descriptor_sex.svg",
           "ratings": [ "12", "16", "18" ]
         },
         {
           "name": "Drugs",
           "description": "May contain references to illegal drugs or a fictional substance that has parallels to real-life illegal drugs (in use, possession, or sale).",
-          "icon": "/images/ratings/pegi/descriptor_drugs.svg",
+          "icon": "/media/ratings/pegi/descriptor_drugs.svg",
           "ratings": [ "16", "18" ]
         },
         {
           "name": "Gambling",
           "description": "May contain elements that encourage or teach gambling.",
-          "icon": "/images/ratings/pegi/descriptor_gambling.svg",
+          "icon": "/media/ratings/pegi/descriptor_gambling.svg",
           "ratings": [ "12", "16", "18" ]
         },
         {
           "name": "Discrimination",
           "description": "May contain scenes or references to cruelty or harassment based on race, religion, ethnicity, gender, ability, or sexual preferences.",
-          "icon": "/images/ratings/pegi/descriptor_discrimination.svg",
+          "icon": "/media/ratings/pegi/descriptor_discrimination.svg",
           "ratings": [ "18" ]
         },
         {
           "name": "Online",
           "description": "Contains an online game mode.",
-          "icon": "/images/ratings/pegi/descriptor_online.svg",
+          "icon": "/media/ratings/pegi/descriptor_online.svg",
           "ratings": [ "3", "7", "12", "16", "18" ]
         }
       ]
@@ -311,44 +309,43 @@
     {
       "id": "iarc",
       "name": "IARC",
-      "nameShort": "IARC",
       "nameFull": "International Age Rating Coalition",
       "regions": [ "ww" ],
       "ratings": [
         {
           "id": "3",
           "name": "Ages 3+",
-          "icon": "/images/ratings/iarc/rating_3.png",
+          "icon": "/media/ratings/iarc/rating_3.png",
           "age": 3
         },
         {
           "id": "7",
           "name": "Ages 7+",
-          "icon": "/images/ratings/iarc/rating_7.png",
+          "icon": "/media/ratings/iarc/rating_7.png",
           "age": 7
         },
         {
           "id": "12",
           "name": "Ages 12+",
-          "icon": "/images/ratings/iarc/rating_12.png",
+          "icon": "/media/ratings/iarc/rating_12.png",
           "age": 12
         },
         {
           "id": "16",
           "name": "Ages 16+",
-          "icon": "/images/ratings/iarc/rating_16.png",
+          "icon": "/media/ratings/iarc/rating_16.png",
           "age": 16
         },
         {
           "id": "18",
           "name": "Ages 18+",
-          "icon": "/images/ratings/iarc/rating_18.png",
+          "icon": "/media/ratings/iarc/rating_18.png",
           "age": 18
         },
         {
           "id": "RP",
           "name": "Rating Pending",
-          "icon": "/images/ratings/iarc/rating_rp.png"
+          "icon": "/media/ratings/iarc/rating_rp.png"
         }
       ]
     }

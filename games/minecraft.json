@@ -9,7 +9,8 @@
       "Mojang"
     ],
     "genres": [
-      "sandbox"
+      "openworld",
+      "survival"
     ],
     "modes": [
       "single-player",
@@ -55,7 +56,7 @@
 
     {
       "id": "0",
-      "platform": "pc",
+      "platforms": [ "pc" ],
       "date": { "y":2011, "m":11, "d":18 },
       "regions": [ "ww" ],
       "distribution": {
@@ -103,7 +104,7 @@
     {
       "id": "1",
       "name": "Minecraft: Pocket Edition",
-      "platform": "android",
+      "platforms": [ "android" ],
       "date": { "y": 2011, "m": 10, "d": 7 },
       "regions": [ "ww" ],
       "distribution": {
@@ -119,7 +120,7 @@
     {
       "id": "2",
       "name": "Minecraft: Pocket Edition",
-      "platform": "ios",
+      "platforms": [ "ios" ],
       "date": { "y": 2011, "m": 11, "d": 17 },
       "regions": [ "ww" ],
       "distribution": {
@@ -143,7 +144,7 @@
       "name": "Minecraft: Xbox 360 Edition",
       "developers": [ "4J Studios" ],
       "publishers": [ "Microsoft Studios" ],
-      "platform": "xbox360",
+      "platforms": [ "xbox360" ],
       "date": { "y": 2012, "m": 5, "d": 9 },
       "regions": [ "ww" ],
       "distribution": {
@@ -161,7 +162,7 @@
       "name": "Minecraft: Xbox 360 Edition",
       "developers": [ "4J Studios" ],
       "publishers": [ "Microsoft Studios" ],
-      "platform": "xbox360",
+      "platforms": [ "xbox360" ],
       "date": { "y": 2013, "m": 6, "d": 4 },
       "regions": [ "na" ],
       "distribution": {
@@ -175,7 +176,7 @@
       "name": "Minecraft: Xbox 360 Edition",
       "developers": [ "4J Studios" ],
       "publishers": [ "Microsoft Studios" ],
-      "platform": "xbox360",
+      "platforms": [ "xbox360" ],
       "date": { "y": 2013, "m": 6, "d": 4 },
       "regions": [ "eu" ],
       "distribution": {
@@ -187,7 +188,7 @@
     {
       "id": "6",
       "name": "Minecraft: Pi Edition",
-      "platform": "pc",
+      "platforms": [ "pc" ],
       "date": { "y": 2013, "m": 2, "d": 11 },
       "regions": [ "ww" ],
       "distribution": {
@@ -212,7 +213,7 @@
       "name": "Minecraft: PlayStation 3 Edition",
       "developers": [ "4J Studios" ],
       "publishers": [ "Sony Computer Entertainment" ],
-      "platform": "ps3",
+      "platforms": [ "ps3" ],
       "date": { "y": 2013, "m": 6, "d": 4 },
       "regions": [ "na" ],
       "distribution": {
@@ -226,7 +227,7 @@
       "name": "Minecraft: PlayStation 3 Edition",
       "developers": [ "4J Studios" ],
       "publishers": [ "Sony Computer Entertainment" ],
-      "platform": "ps3",
+      "platforms": [ "ps3" ],
       "date": { "y": 2013, "m": 6, "d": 4 },
       "regions": [ "eu" ],
       "distribution": {
@@ -240,7 +241,7 @@
       "name": "Minecraft: PlayStation 4 Edition",
       "developers": [ "4J Studios" ],
       "publishers": [ "Sony Computer Entertainment" ],
-      "platform": "ps4",
+      "platforms": [ "ps4" ],
       "date": { "y": 2014, "m": 9, "d": 4 },
       "regions": [ "ww" ],
       "distribution": {
@@ -254,7 +255,7 @@
       "name": "Minecraft: Xbox One Edition",
       "developers": [ "4J Studios" ],
       "publishers": [ "Microsoft Studios" ],
-      "platform": "xboxone",
+      "platforms": [ "xboxone" ],
       "date": { "y": 2014, "m": 9, "d": 5 },
       "regions": [ "ww" ],
       "distribution": {
@@ -268,7 +269,7 @@
       "name": "Minecraft: Xbox One Edition",
       "developers": [ "4J Studios" ],
       "publishers": [ "Microsoft Studios" ],
-      "platform": "xboxone",
+      "platforms": [ "xboxone" ],
       "date": { "y": 2014, "m": 11, "d": 18 },
       "distribution": {
         "digital": false,
@@ -281,7 +282,7 @@
       "name": "Minecraft: PlayStation Vita Edition",
       "developers": [ "4J Studios" ],
       "publishers": [ "Sony Computer Entertainment" ],
-      "platform": "psvita",
+      "platforms": [ "psvita" ],
       "date": { "y": 2014, "m": 10, "d": 14 },
       "regions": [ "na" ],
       "distribution": {
@@ -295,7 +296,7 @@
       "name": "Minecraft: PlayStation Vita Edition",
       "developers": [ "4J Studios" ],
       "publishers": [ "Sony Computer Entertainment" ],
-      "platform": "psvita",
+      "platforms": [ "psvita" ],
       "date": { "y": 2014, "m": 10, "d": 15 },
       "regions": [ "eu" ],
       "distribution": {
@@ -308,7 +309,7 @@
       "id": "14",
       "name": "Minecraft: Pocket Edition",
       "publishers": [ "Microsoft Studios" ],
-      "platform": "winphone",
+      "platforms": [ "winphone" ],
       "date": { "y": 2014, "m": 12, "d": 10 },
       "distribution": {
         "digital": false,
@@ -319,7 +320,7 @@
     {
       "id": "15",
       "name": "Minecraft: Windows 10 Edition",
-      "platform": "pc",
+      "platforms": [ "pc" ],
       "regions": [ "ww" ],
       "distribution": {
         "digital": true,
@@ -340,9 +341,9 @@
 
   ],
 
-  "images": [
+  "media": [
     {
-      "file": "1.webp",
+      "file": "storefrontIcon_android.webp",
       "type": "storefrontIcon",
       "release": {
         "name": "Minecraft: Pocket Edition",
@@ -350,7 +351,7 @@
       }
     },
     {
-      "file": "1.jpg",
+      "file": "cover_xbox360_na.jpg",
       "type": "cover",
       "release": {
         "name": "Minecraft: Xbox 360 Edition",
@@ -363,7 +364,7 @@
       }
     },
     {
-      "file": "1.png",
+      "file": "cover_xbox360_arcade.png",
       "type": "cover",
       "release": {
         "name": "Minecraft: Xbox 360 Edition",
@@ -375,7 +376,7 @@
       }
     },
     {
-      "file": "2.png",
+      "file": "cover_xboxone.png",
       "type": "cover",
       "release": {
         "name": "Minecraft: Xbox One Edition",
@@ -383,7 +384,7 @@
       }
     },
     {
-      "file": "3.png",
+      "file": "logo_xboxone.png",
       "type": "logo",
       "release": {
         "name": "Minecraft: Xbox One Edition",
@@ -391,7 +392,7 @@
       }
     },
     {
-      "file": "1.svg",
+      "file": "logo.svg",
       "type": "logo",
       "release": {}
     },

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "action",
+    "name": "Action"
+  },
+  {
+    "id": "shooter",
+    "name": "Shooter",
+    "parents": ["action"]
+  },
+  {
+    "id": "fps",
+    "name": "FPS",
+    "nameFull": "First-person shooter",
+    "parents": ["shooter"]
+  },
+  {
+    "id": "shmup",
+    "name": "Shoot 'em up",
+    "parents": ["shooter"]
+  },
+  {
+    "id": "tacticalshooter",
+    "name": "Tactical shooter",
+    "parents": ["shooter"]
+  },
+  {
+    "id": "tacticalfps",
+    "name": "Tactical FPS",
+    "parents": ["tacticalshooter", "fps"]
+  },
+  {
+    "id": "fighting",
+    "name": "Fighting",
+    "parents": ["action"]
+  },
+  {
+    "id": "beatemup",
+    "name": "Beat 'em up",
+    "parents": ["fighting"]
+  },
+  {
+    "id": "hackandslash",
+    "name": "Hack and slash",
+    "parents": ["beatemup"]
+  },
+  {
+    "id": "platform",
+    "name": "Platform",
+    "parents": ["action"]
+  },
+  {
+    "id": "survival",
+    "name": "Survival",
+    "parents": ["action"]
+  },
+
+  {
+    "id": "adventure",
+    "name": "Adventure"
+  },
+  {
+    "id": "textadventure",
+    "name": "Text adventure",
+    "parents": ["adventure"]
+  },
+  {
+    "id": "graphicadventure",
+    "name": "Graphic adventure",
+    "parents": ["adventure"]
+  },
+  {
+    "id": "pointclickadventure",
+    "name": "Point and click adventure",
+    "nameShort": "Point & click",
+    "parents": ["graphicadventure"]
+  },
+  {
+    "id": "escapetheroom",
+    "name": "Escape the room",
+    "nameShort": "Escape",
+    "parents": ["adventure"]
+  },
+
+  {
+    "id": "action-adventure",
+    "name": "Action-adventure",
+    "parents": ["action", "adventure"]
+  },
+  {
+    "id": "openworld",
+    "name": "Open world",
+    "parents": ["action-adventure"]
+  },
+  {
+    "id": "stealth",
+    "name": "Stealth",
+    "parents": ["action-adventure"]
+  },
+  {
+    "id": "survivalhorror",
+    "name": "Survival horror",
+    "parents": ["survival", "action-adventure"]
+  },
+
+  {
+    "id": "arcade",
+    "name": "Arcade game",
+    "nameShort": "Arcade"
+  },
+
+  {
+    "id": "art",
+    "name": "Art game",
+    "nameShort": "Art"
+  },
+
+  {
+    "id": "boardcard",
+    "name": "Board and card game",
+    "nameShort": "Board/card"
+  },
+
+  {
+    "id": "casual",
+    "name": "Casual game",
+    "nameShort": "Casual"
+  },
+
+  {
+    "id": "indie",
+    "name": "Indie game",
+    "name": "Indie",
+    "nameFull": "Independent game"
+  },
+
+  {
+    "id": "mmo",
+    "name": "MMO",
+    "nameFull": "Massively multiplayer online game"
+  },
+  {
+    "id": "mmofps",
+    "name": "MMOFPS",
+    "nameFull": "Massively multiplayer online first-person shooter",
+    "parents": ["mmo", "fps"]
+  },
+  {
+    "id": "mmorpg",
+    "name": "MMORPG",
+    "nameFull": "Massively multiplayer online role-playing game",
+    "parents": ["mmo", "rpg"]
+  },
+  {
+    "id": "mmorts",
+    "name": "MMORTS",
+    "nameFull": "Massively multiplayer online real-time strategy",
+    "parents": ["mmo", "rts"]
+  },
+
+  {
+    "id": "music",
+    "name": "Music"
+  },
+  {
+    "id": "rhythm",
+    "name": "Rhythm",
+    "parents": ["music"]
+  },
+
+  {
+    "id": "party",
+    "name": "Party"
+  },
+
+  {
+    "id": "puzzle",
+    "name": "Puzzle"
+  },
+  {
+    "id": "puzzleplatform",
+    "name": "Puzzle platform",
+    "nameShort": "Puzz platform",
+    "parents": ["puzzle", "platform"]
+  },
+
+  {
+    "id": "racing",
+    "name": "Racing"
+  },
+  {
+    "id": "racingsim",
+    "name": "Racing simulation",
+    "nameShort": "Racing sim",
+    "parents": ["racing", "vehiclesim"]
+  },
+  {
+    "id": "kartracing",
+    "name": "Kart racing",
+    "parents": ["racing"]
+  },
+
+  {
+    "id": "rpg",
+    "name": "RPG",
+    "nameFull": "Role-playing game"
+  },
+  {
+    "id": "arpg",
+    "name": "Action RPG",
+    "nameShort": "ARPG",
+    "nameFull": "Action role-playing game",
+    "parents": ["rpg"]
+  },
+  {
+    "id": "roguelike",
+    "name": "Roguelike",
+    "parents": ["rpg"]
+  },
+  {
+    "id": "mud",
+    "name": "MUD",
+    "nameFull": "Multi-user dungeon",
+    "parents": ["rpg"]
+  },
+
+  {
+    "id": "sim",
+    "name": "Simulation",
+    "nameShort": "Sim"
+  },
+  {
+    "id": "vehiclesim",
+    "name": "Vehicle simulation",
+    "nameShort": "Vehicle sim",
+    "parents": ["sim"]
+  },
+  {
+    "id": "flightsim",
+    "name": "Flight simulation",
+    "nameShort": "Flight sim",
+    "parents": ["vehiclesim"]
+  },
+  {
+    "id": "buildingsim",
+    "name": "Building simulation",
+    "nameShort": "Building sim",
+    "nameFull": "Construction and management simulation",
+    "parents": ["sim"]
+  },
+  {
+    "id": "lifesim",
+    "name": "Life simulation",
+    "nameShort": "Life sim",
+    "parents": ["sim"]
+  },
+  {
+    "id": "godgame",
+    "name": "God game",
+    "nameShort": "God",
+    "parents": ["lifesim"]
+  },
+  {
+    "id": "datingsim",
+    "name": "Dating simulation",
+    "nameShort": "Dating sim",
+    "parents": ["lifesim", "adventure"]
+  }
+  {
+    "id": "sports",
+    "name": "Sports",
+    "parents": ["sim"]
+  }
+
+  {
+    "id": "strategy",
+    "name": "Strategy"
+  },
+  {
+    "id": "4x",
+    "name": "4X",
+    "parents": ["strategy"]
+  },
+  {
+    "id": "rts",
+    "name": "Real-time strategy",
+    "nameShort": "RTS",
+    "parents": ["strategy"]
+  },
+  {
+    "id": "moba",
+    "name": "MOBA",
+    "nameFull": "Multiplayer online battle arena",
+    "parents": ["rts"]
+  },
+  {
+    "id": "towerdefense",
+    "name": "Tower defense",
+    "nameShort": "Tower def",
+    "parents": ["rts"]
+  },
+  {
+    "id": "tbs",
+    "name": "Turn-based strategy",
+    "nameShort": "TBS",
+    "parents": ["strategy"]
+  }
+]
