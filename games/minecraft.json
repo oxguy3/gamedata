@@ -15,10 +15,38 @@
       "single-player",
       "multiplayer"
     ],
-    "images": [
+    "links": [
+      { "type": "official website", "url": "https://minecraft.net/" },
+      { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Minecraft" }
+    ],
+    "ratings": [
       {
-        "type": "logo",
-        "file": "1.svg"
+        "authority": "esrb",
+        "rating": "E10",
+        "descriptors": [ "Fantasy Violence" ]
+      },
+      {
+        "authority": "pegi",
+        "rating": "7",
+        "descriptors": [ "Fear", "Violence" ]
+      },
+      {
+        "authority": "usk",
+        "rating": "6"
+      },
+      {
+        "authority": "acb",
+        "rating": "PG",
+        "descriptors": [ "Mild violence" ]
+      },
+      {
+        "authority": "classind",
+        "rating": "L"
+      },
+      {
+        "authority": "grac",
+        "rating": "A",
+        "descriptors": []
       }
     ]
   },
@@ -85,13 +113,7 @@
       "players": {
         "local": 1,
         "online": [1, "@INFINITY"]
-      },
-      "images": [
-        {
-          "type": "icon",
-          "file": "1.webp"
-        }
-      ]
+      }
     },
 
     {
@@ -107,7 +129,13 @@
       "players": {
         "local": 1,
         "online": [1, "@INFINITY"]
-      }
+      },
+      "ratings": [
+        {
+          "authority": "Apple",
+          "rating": "4+"
+        }
+      ]
     },
 
     {
@@ -125,13 +153,7 @@
       "players": {
         "local": [1, 4],
         "online": [2, 8]
-      },
-      "images": [
-        {
-          "type": "cover",
-          "file": "1.png"
-        }
-      ]
+      }
     },
 
     {
@@ -145,13 +167,7 @@
       "distribution": {
         "digital": false,
         "retail": true
-      },
-      "images": [
-        {
-          "type": "cover",
-          "file": "1.jpg"
-        }
-      ]
+      }
     },
 
     {
@@ -244,17 +260,7 @@
       "distribution": {
         "digital": true,
         "retail": false
-      },
-      "images": [
-        {
-          "type": "cover",
-          "file": "2.png"
-        },
-        {
-          "type": "logo",
-          "file": "3.png"
-        }
-      ]
+      }
     },
 
     {
@@ -274,7 +280,7 @@
       "id": "12",
       "name": "Minecraft: PlayStation Vita Edition",
       "developers": [ "4J Studios" ],
-      "publishers": [ "Sony Computer Entertainment" ],f
+      "publishers": [ "Sony Computer Entertainment" ],
       "platform": "psvita",
       "date": { "y": 2014, "m": 10, "d": 14 },
       "regions": [ "na" ],
@@ -332,6 +338,63 @@
       }
     }
 
+  ],
+
+  "images": [
+    {
+      "file": "1.webp",
+      "type": "storefrontIcon",
+      "release": {
+        "name": "Minecraft: Pocket Edition",
+        "platforms": [ "android" ]
+      }
+    },
+    {
+      "file": "1.jpg",
+      "type": "cover",
+      "release": {
+        "name": "Minecraft: Xbox 360 Edition",
+        "platforms": [ "xbox360" ],
+        "regions": [ "na" ],
+        "distribution": {
+          "digital": false,
+          "retail": true
+        }
+      }
+    },
+    {
+      "file": "1.png",
+      "type": "cover",
+      "release": {
+        "name": "Minecraft: Xbox 360 Edition",
+        "platforms": [ "xbox360" ],
+        "distribution": {
+          "digital": true,
+          "retail": false
+        }
+      }
+    },
+    {
+      "file": "2.png",
+      "type": "cover",
+      "release": {
+        "name": "Minecraft: Xbox One Edition",
+        "platforms": [ "xboxone" ]
+      }
+    },
+    {
+      "file": "3.png",
+      "type": "logo",
+      "release": {
+        "name": "Minecraft: Xbox One Edition",
+        "platforms": [ "xboxone" ]
+      }
+    },
+    {
+      "file": "1.svg",
+      "type": "logo",
+      "release": {}
+    },
   ]
 
 }
