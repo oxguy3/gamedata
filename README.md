@@ -1,7 +1,7 @@
 # gamedata
 This repository is an attempt to gather metadata on all video games ever in one consistent format. There have been many similar projects and endeavors like this one, but most of them aim to get as much data as possible via crowdsourcing. That's great for getting a lot of data, but often times there are mistakes and quality issues.
 
-This repository is focused on verified, accurate, clean data. It would be preferrable to have no data than to have data that is subpar. Hopefully this project can prove to be a valuable resource to many.
+This repository is focused on verified, accurate, clean data. It would be preferrable to have no data than to have data that is subpar. A typical application might use this tool as a primary source of data, then fall back to Giant Bomb or TheGamesDB or archive.vg in instances where this repository is lacking. Hopefully this project can prove to be a valuable resource to many.
 
 ## Documentation
 
